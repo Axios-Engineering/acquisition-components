@@ -8,8 +8,10 @@ autom4te.cache
 config.guess
 config.log
 config.sub
+config.status
 configure
 depcomp
 install-sh
 ltmain.sh
 missing
+RTLTcpSource/cpp/RTLTcpSource

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<codegen:WaveDevSettings xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:codegen="http://www.redhawk.gov/model/codegen">
+  <implSettings key="cpp">
+    <value outputDir="cpp" template="gov.redhawk.ide.codegen.jet.cplusplus.PullPortDataTemplate" generatorId="gov.redhawk.ide.codegen.jet.cplusplus.CplusplusGenerator" primary="true">
+      <generatedFileCRCs crc="1746641546" file="reconf"/>
+      <generatedFileCRCs crc="2064493259" file="RTLTcpSource_base.cpp"/>
+      <generatedFileCRCs crc="4158026805" file="port_impl.cpp"/>
+      <generatedFileCRCs crc="1783423934" file="RTLTcpSource.cpp"/>
+      <generatedFileCRCs crc="1404785370" file="build.sh"/>
+      <generatedFileCRCs crc="2149947501" file="configure.ac"/>
+      <generatedFileCRCs crc="1476348939" file="port_impl.h"/>
+      <generatedFileCRCs crc="3276484188" file="RTLTcpSource.h"/>
+      <generatedFileCRCs crc="1004696261" file="RTLTcpSource_base.h"/>
+      <generatedFileCRCs crc="3830421669" file="main.cpp"/>
+      <generatedFileCRCs crc="1942573142" file="struct_props.h"/>
+      <generatedFileCRCs crc="2512208382" file="../RTLTcpSource.spec"/>
+      <generatedFileCRCs crc="342065033" file="Makefile.am"/>
+    </value>
+  </implSettings>
+</codegen:WaveDevSettings>

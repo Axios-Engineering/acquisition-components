@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties PUBLIC "-//JTRS//DTD SCA V2.2.2 PRF//EN" "properties.dtd">
+<properties>
+  <simple id="rtl_host" mode="readwrite" type="string">
+    <value>127.0.0.1</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="rtl_port" mode="readwrite" type="longlong">
+    <value>1234</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="output_block_size" mode="readwrite" type="ulong">
+    <value>262144</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="frequency" mode="readwrite" type="ulonglong">
+    <value>100000000</value>
+    <units>Hz</units>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="sample_rate" mode="readwrite" type="ulonglong">
+    <value>2048000</value>
+    <units>Hz</units>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="gain_mode" mode="readwrite" type="ushort">
+    <value>0</value>
+    <enumerations>
+      <enumeration label="AUTO" value="0"/>
+      <enumeration label="MANUAL" value="1"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="gain" mode="readwrite" type="ulong">
+    <value>0</value>
+    <units>.1dB</units>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="frequency_correction" mode="readwrite" type="long">
+    <value>0</value>
+    <units>ppm</units>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="agc_mode" mode="readwrite" type="ushort">
+    <value>1</value>
+    <enumerations>
+      <enumeration label="ENABLED" value="1"/>
+      <enumeration label="DISABLED" value="0"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="direct_sampling" mode="readwrite" type="ushort">
+    <value>0</value>
+    <enumerations>
+      <enumeration label="DISABLED" value="0"/>
+      <enumeration label="I_ADC" value="1"/>
+      <enumeration label="Q_ADC" value="2"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="offset_tuning" mode="readwrite" type="ushort">
+    <value>0</value>
+    <enumerations>
+      <enumeration label="DISABLED" value="0"/>
+      <enumeration label="ENABLED" value="1"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simplesequence id="if_gain" mode="readwrite" type="ushort">
+    <units>.1dB</units>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simplesequence>
+  <simple id="streamID" mode="readwrite" type="string">
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+</properties>
